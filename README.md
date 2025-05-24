@@ -8,7 +8,7 @@ We implemented TFR using the framework provided by [NoisyGL](https://proceedings
 
 ## Installation
 **Note:** These codes built upon [PyTorch](https://pytorch.org/), [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html), [PyTorch Sparse](https://github.com/rusty1s/pytorch_sparse) and [PyTorch Cluster](https://github.com/rusty1s/pytorch_cluster). 
-Please install them from the above links for running NoisyGL. Also, please make sure that you have installed the following dependencies.
+Please install them from the above links. Also, please make sure that you have installed the following dependencies.
 
 ## Required Dependencies:
 - Python 3.11+
