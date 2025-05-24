@@ -1,0 +1,30 @@
+analysis:
+  flag: false
+  project: gnn-with-label-noise
+  save_graph: false
+dataset:
+  sparse: true
+model:
+  act: F.relu
+  beta: 0.5
+  beta_dropout_ratio: 0.581229595176513
+  att_softmax: false
+  attr_softmax: true
+  decoder_dropout: 0.3907730489369916
+  dropout: 0.6886554578492039
+  input_layer: false
+  method: gcn
+  n_hidden: 16
+  n_layer: 2
+  norm_info: null
+  output_layer: false
+  pseudo_ratio: 0.3156206408879477
+  use_recon_softmax: false
+  beta_dropout_type: edge
+training:
+  criterion: metric
+  lr: 0.1
+  mini_batch: false
+  n_epochs: 500
+  patience: null
+  weight_decay: 0.001

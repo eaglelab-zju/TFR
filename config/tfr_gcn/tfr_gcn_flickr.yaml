@@ -1,0 +1,32 @@
+model:
+  method: gcn
+  n_hidden: 64
+  n_layer: 2
+  act: F.relu
+  dropout: 0.5
+  decoder_dropout: 0.2
+  beta_dropout_ratio: 0.5
+  pseudo_ratio: 0.01
+  use_recon_softmax: true
+  norm_info: ~
+  input_layer: false
+  output_layer: false
+  beta: 1
+  att_softmax: true
+  beta_dropout_type: edge
+
+training:
+  lr: 1e-2
+  weight_decay: 5e-4
+  n_epochs: 300
+  patience: ~
+  criterion: metric
+  mini_batch: false
+
+dataset:
+  sparse: true
+
+analysis:
+  flag: false
+  project: gnn-with-label-noise
+  save_graph: false
