@@ -4,7 +4,18 @@
 # Topological Feature Reconstruction (TFR)
 
 Official code for Paper "Learning from Graph: Mitigating Label Noise on Graph through Topological Feature Reconstruction".
-We implemented TFR using the framework provided by [NoisyGL](https://proceedings.neurips.cc/paper_files/paper/2024/hash/436ffa18e7e17be336fd884f8ebb5748-Abstract-Datasets_and_Benchmarks_Track.html). You can find implementations and config file of most baseline methods in [their repository](https://github.com/eaglelab-zju/NoisyGL).
+We implemented TFR using the framework provided by [NoisyGL](https://proceedings.neurips.cc/paper_files/paper/2024/hash/436ffa18e7e17be336fd884f8ebb5748-Abstract-Datasets_and_Benchmarks_Track.html). 
+You can find implementations and config file of most baseline methods in [this repository](https://github.com/eaglelab-zju/NoisyGL).
+
+## TFR Workflow
+
+TFR is a simple, effective and theoretically guaranteed model for robust graph learning under label noise. 
+Its core mechanism leverages a decoder GNN to reconstruct topological features, which regularizes the backbone model against overfitting to noisy labels. 
+The reconstruction process also enables the reliable selection of high-confidence pseudo-labels, which provide additional supervision signals beyond noisy labels. 
+The overall workflow of TFR is shown below:
+
+![TFR Workflow](./figures/TFR_workflow.png)
+
 
 ## Installation
 **Note:** These codes built upon [PyTorch](https://pytorch.org/), [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html), [PyTorch Sparse](https://github.com/rusty1s/pytorch_sparse) and [PyTorch Cluster](https://github.com/rusty1s/pytorch_cluster). 
@@ -51,6 +62,10 @@ By running this, detailed experiment information will be printed on the terminal
 
 **noise type** ： 
 `clean`, `pair`, `uniform`, `instance_dependent`
+
+## Citation
+Coming soon.
+
 
 
 
