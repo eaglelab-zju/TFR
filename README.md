@@ -64,8 +64,27 @@ By running this, detailed experiment information will be printed on the terminal
 `clean`, `pair`, `uniform`, `instance_dependent`
 
 ## Citation
-Coming soon.
+If our work could help your research, please cite: [Learning from Graph: Mitigating Label Noise on Graph through Topological Feature Reconstruction](https://dl.acm.org/doi/10.1145/3746252.3761185) 
 
+```
+@inproceedings{10.1145/3746252.3761185,
+author = {Wang, Zhonghao and Bei, Yuanchen and Zhou, Sheng and Zhou, Zhiyao and Fan, Jiapei and Xue, Hui and Wang, Haishuai and Bu, Jiajun},
+title = {Learning from Graph: Mitigating Label Noise on Graph through Topological Feature Reconstruction},
+year = {2025},
+isbn = {9798400720406},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3746252.3761185},
+doi = {10.1145/3746252.3761185},
+booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+pages = {3261–3270},
+numpages = {10},
+keywords = {graph neural networks, graph reconstruction, label noise, semi-supervised learning},
+location = {Seoul, Republic of Korea},
+series = {CIKM '25}
+}
+```
+:star: We’d also be delighted if you could give our repo a star! :blush:
 
 
 
